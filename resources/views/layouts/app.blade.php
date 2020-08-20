@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@shopify/polaris@5.0.0/dist/styles.css"/>
 </head>
 <body>
     <div id="app">

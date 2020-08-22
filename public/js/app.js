@@ -1914,6 +1914,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.', this.$store.getters.getCount);
@@ -37504,9 +37511,41 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    I'm an example component.\n")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticStyle: {
+          "--top-bar-background": "#00848e",
+          "--top-bar-background-lighter": "#1d9ba4",
+          "--top-bar-color": "#f9fafb",
+          "--p-frame-offset": "0px"
+        }
+      },
+      [
+        _c("div", { staticClass: "Polaris-Card" }, [
+          _c("div", { staticClass: "Polaris-Card__Header" }, [
+            _c("h2", { staticClass: "Polaris-Heading" }, [
+              _vm._v("Online store dashboard")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "Polaris-Card__Section" }, [
+            _c("p", [
+              _vm._v("View a summary of your online store’s performance.")
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
